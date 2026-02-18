@@ -2,7 +2,7 @@
 
 По тестам у него 100% покрытие фикстур sqlglot.
 
-----------------------------
+---
 
 СУБД NebulaGraph
 
@@ -14,5 +14,13 @@ Apache 2.0, без ограничений
 Kubernetes Operator
 Графовые запросы (nGQL, совместим с openCypher)
 
-----------------------------
+---
 
+Вышла [новая версия YugabyteDB: v2025.2.1.0](https://github.com/yugabyte/yugabyte-db/releases/tag/v2025.2.1.0)
+
+Коротко из release notes:
+
+• GA: xCluster automatic mode — автоматическая репликация YSQL DDL изменений между кластерами (меньше ручной работы).
+• EA: Replication origins — поддержка PostgreSQL replication origins, чтобы избегать бесконечных циклов в bi-directional CDC.
+
+---
