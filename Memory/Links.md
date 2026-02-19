@@ -1,3 +1,14 @@
+Вышел pg_ash.
+У Postgres нет session history. Если час назад что-то тормозило, смотреть уже некуда.
+pg_ash это чинит: чистый SQL, установка одним файлом, работает на RDS / Cloud SQL / Supabase / self-hosted, везде где есть pg_stat_statements и pg_cron.
+Никаких extensions, никаких рестартов, никаких “одобрений провайдера”. Просто \i и один файл.
+Вот репо: [https://github.com/NikolayS/pg_ash]
+Сэмплинг раз в 1 секунду, примерно 100–200 байт/сек, около 20–30 MiB сырых данных в день, плюс ротация партиций без раздувания (отсылка к Skype PGQ).
+И еще: 32 функции, заточенные под RCA (поиск первопричины), удобно и людям, и AI.
+Пример расследования с помощью LLM [тут](https://github.com/NikolayS/pg_ash?tab=readme-ov-file#llm-assisted-investigation)
+
+---
+
 Представили [polyglot](https://github.com/tobilg/polyglot): SQL-транспайлер на Rust, который умеет перегонять запросы между более чем 30 SQL-диалектами.
 
 По тестам у него 100% покрытие фикстур sqlglot.
