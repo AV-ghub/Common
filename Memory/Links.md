@@ -1,3 +1,11 @@
+[BioGraphRAG - Biomedical Knowledge Graph Retrieval Augmented Generation](https://nebula-graph.io/posts/biographrag-biomedical-knowledge-graph-retrieval-augmented-generation)
+
+---
+
+[KG-RAG: Bridging the Gap Between Knowledge and Creativity of LLM-based Agents](https://nebula-graph.io/posts/kg-rag-bridging-the-gap-between-knowledge-and-creativity-of-llm-based-agents)
+
+---
+
 Вышел pg_ash.
 У Postgres нет session history. Если час назад что-то тормозило, смотреть уже некуда.
 pg_ash это чинит: чистый SQL, установка одним файлом, работает на RDS / Cloud SQL / Supabase / self-hosted, везде где есть pg_stat_statements и pg_cron.
