@@ -1,3 +1,17 @@
+Вышла новая версия YugabyteDB: v2025.2.2.1 (23 марта 2026)
+
+📎 Ссылка на релиз: https://github.com/yugabyte/yugabyte-db/releases/tag/v2025.2.2.1
+
+📋 Основные изменения в серии 2025.2:
+• Резервное копирование во время DDL операций (GA)
+• Поддержка AWS ClockBound (GA)
+• Распределение индексов по бакетам (EA)
+
+⚠️ Примечание: v2025.2.2.1 — релиз только для YugabyteDB Anywhere, без изменений в самом YugabyteDB.
+
+
+---
+
 [BioGraphRAG - Biomedical Knowledge Graph Retrieval Augmented Generation](https://nebula-graph.io/posts/biographrag-biomedical-knowledge-graph-retrieval-augmented-generation)
 
 ---
