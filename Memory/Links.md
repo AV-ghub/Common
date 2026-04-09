@@ -1,3 +1,7 @@
+[Karpathy-Inspired Claude Code Guidelines](https://github.com/forrestchang/andrej-karpathy-skills/tree/main)
+
+---
+
 [Галлюцинации LLM — это артефакты сжатия. И это объясняет вообще всё](https://habr.com/ru/articles/1017612/)
 
 ---
