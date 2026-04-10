@@ -1,9 +1,11 @@
 [rtk](https://github.com/rtk-ai/rtk)
+
 rtk filters and compresses command outputs before they reach your LLM context. Single Rust binary, 100+ supported commands, <10ms overhead.
 
 ---
 
 [caveman](https://github.com/JuliusBrussee/caveman)
+
 A Claude Code skill/plugin and Codex plugin that makes agent talk like caveman — cutting ~75% of output tokens while keeping full technical accuracy. 
 
 Now with 文言文 mode, terse commits, one-line code reviews, and a compression tool that cuts ~45% of input tokens every session.
