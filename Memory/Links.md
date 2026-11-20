@@ -1,3 +1,5 @@
+[stelsvpn](https://stelsvpn.com/ru?utm_source=2ip.io&utm_campaign=promo)  
+
 [WrenAI](https://github.com/Canner/WrenAI)  
 Нашли мощную open-source платформу для работы с SQL через ИИ — WrenAI
 
